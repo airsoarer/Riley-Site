@@ -1,0 +1,31 @@
+html{
+	margin: 0px !important;
+	padding: 0px !important;
+}
+
+body{
+	margin: 0px @important;
+	padding: 0px @important;
+	background-color: #111111;
+	color: white;
+}
+
+@keyframes name{
+	from{
+		border-bottom: white solid 2px:
+	}
+	
+	to{
+		border-bottom: none;
+	}
+}
+
+#name{
+	margin-left: 10pz;
+	font-size: 36px;
+	color: white;
+	animation: name 1s 5;
+	border-bottom: solid white 10px;
+	width: 30px;
+	margin-top: 25%;
+}
