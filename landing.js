@@ -1,13 +1,16 @@
 (function(){
 	$(document).ready(init);
+	temp = "";
+	i = 0;
 	
 	function init(){
 		setTimeout(function(){
-			var name = "Matthew Williams II";
-			for(var i = 0; i < name.length; i++){
-				$('#name').empty();
-				$('#name').append(name[i]);
-			}
+			setInterval(function(){
+				var name = "Matthew Williams II";
+				temp += name[i];
+				$('#name').text(name);
+				i++;
+			}, 200);
 		}, 5000);
 	}
 })();
