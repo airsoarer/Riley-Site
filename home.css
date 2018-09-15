@@ -10,8 +10,9 @@ html{
 body{
     margin-top: 0px !important;
     padding: 0px;
+    /* width: 100vw !important; */
     height: 100% !important;
-    font-size: 16px;
+    font-size: 16px !important;
     font-family: 'Quicksand', sans-serif;
 }
 
@@ -179,5 +180,9 @@ p{
 .quote span{
     color: #63d488;
     font-size: 22px;
+}
+
+.freelance{
+    font-size: 16px !important;
 }
 
