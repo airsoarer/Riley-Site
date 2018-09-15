@@ -178,7 +178,7 @@ p{
 
 .quote{
     position: absolute;
-    bottom: 10%;
+    bottom: 15%;
     right: 10px !important;
     text-align: right;
 }
@@ -194,6 +194,11 @@ p{
 
 .offset-m2{
     margin-left: 16.6666666667% !important;
+}
+
+.ied{
+    display: none;
+    height: 500px;
 }
 
 @media screen and (max-width: 601px){
