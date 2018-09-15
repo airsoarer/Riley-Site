@@ -59,6 +59,10 @@ p{
 }
 
 @media screen and (max-width: 600px){
+    body{
+        width: 100% !important;
+    }
+
     .text{
         padding-top: 15vh;
     }
