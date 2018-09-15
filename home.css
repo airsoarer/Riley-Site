@@ -12,6 +12,7 @@ body{
     padding: 0px;
     height: 100% !important;
     font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
 }
 
 div{
@@ -23,15 +24,19 @@ h2{
 }
 
 hr{
-    margin-top: 59px;
-    margin-bottom: 50px;
+    margin-top: 50px !important;
+    margin-bottom: 50px !important;
 }
 
 footer{
     background-color: #222222;
     color: white;
-    height: 100px;
+    height: 120px;
     margin-bottom: 0px !important;
+}
+
+p{
+    letter-spacing: 3px
 }
 
 ::-webkit-scrollbar{
@@ -53,7 +58,7 @@ footer{
 
 @media screen and (max-width: 600px){
     .text{
-        padding-top: 25vh;
+        padding-top: 15vh;
     }
 }
 
@@ -87,7 +92,7 @@ footer{
 
 #mw{
     font-size: 24px;
-    color: #000000;
+    color: #FFFFFF;
 }
 
 #bottom{
@@ -131,23 +136,18 @@ footer{
 }
 
 .top{
-    height: 100vh;
+    height: 700px;
     color: white;
     background-image: url("background_pattern.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
     margin-top: 0px;
+    position: relative;
 }
 
 .text{
-    /* padding-top: 45vh !important;
-    margin-bottom: auto !important;
-    margin-right:                                                                     auto !important;
-    margin-left: auto !important;
-    width: 50%;
-    height: 50%; */
-    padding-top: 30vh !important;
+    padding-top: 12% !important;
     text-align: left !important;
     letter-spacing: 10px;
 }
@@ -160,11 +160,24 @@ footer{
 .summurize{
     height: 150px;
     /* border-bottom: 1px #aaaaaa solid; */
+    margin-top: 10px !important;
     margin-bottom: 20px !important;
     /* font-size: 18px; */
 }
 
 .projects{
     margin-bottom: 50px !important;
+}
+
+.quote{
+    position: absolute;
+    bottom: 50px;
+    right: 10px !important;
+    text-align: right;
+}
+
+.quote span{
+    color: #63d488;
+    font-size: 22px;
 }
 
