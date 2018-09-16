@@ -1,0 +1,147 @@
+html{
+    margin: 0px !important;
+}
+
+body{
+    margin: 0px !important;
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+p{
+    letter-spacing: 3px;
+}
+
+hr{
+    margin-top: 50px !important;
+    margin-bottom: 50px !important;
+}
+
+footer{
+    background-color: #222222;
+    color: white;
+    height: 120px;
+    margin-bottom: 0px !important;
+}
+
+::-webkit-scrollbar{
+    height: 5px;
+    width: 8px;
+    /* width: 5px !important; */
+}
+
+::-webkit-scrollbar-track{ 
+    /* box-shadow: inset 0 5px 6px #1b1b1b; */
+    background-color: #555555;
+}
+
+::-webkit-scrollbar-thumb{
+    /* background-color: var(--baseColor); */
+    background-color: #63d488;
+    border-radius: 5px;
+}
+
+#quoteColor{
+    color: #63d488;
+}
+
+#mw::before{
+    content: 'MW';
+    color: #63d488;
+}
+
+#mw{
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+#bottom{
+    position: absolute;
+    bottom: 10%;
+    left: 15px;
+}
+
+#bottom a{
+    padding: 0px !important;
+    margin: 5px !important;
+}
+
+#design{
+    margin-left: -6px
+}
+
+.freelance a{
+    color: black;
+    border-bottom: black solid 1px;
+}
+
+.nav a{
+    color: white;
+}
+
+.sidenav button{
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 24px;
+    height: 80px;
+    border-bottom: #63d488 solid 2px;
+}
+
+.sidenav button:focus{
+    background-color: transparent;
+}
+
+.sidenav button:hover{
+    cursor: pointer;
+}
+
+.ied{
+    display: none;
+}
+
+.compSci{
+    display: none;
+}
+
+.about{
+    display: none;
+}
+
+.top{
+    background-image: url("background_pattern.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 110vh;
+    color: white;
+    position: relative;
+}
+
+.quote{
+    font-size: 24px;
+    text-align: right;
+    position: absolute;
+    bottom: 10%;
+}
+
+.title{
+    padding-top: 30px !important;
+    letter-spacing: 10px;
+}
+
+.sidenav{
+    background-color: #222222 !important;
+}
+
+.color{
+    color: #63d488;
+}
+
+.what{
+    margin-top: 40px !important;
+}
+
+.footerDesign{
+    padding-top: 5px !important;
+}
+

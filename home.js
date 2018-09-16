@@ -9,7 +9,7 @@
 
     function ied(){
         $('.ied').css('display', 'block');
-        $('.info').css('display', 'none');
+        $('.home').css('display', 'none');
         $('.compSci').css('display', 'none');
         $('.about').css('display', 'none');
 
@@ -21,13 +21,13 @@
 
     function home(){
         $('.ied').css('display', 'none');
-        $('.info').css('display', 'block');
+        $('.home').css('display', 'block');
         $('.compSci').css('display', 'none');
         $('.about').css('display', 'none');
 
         $('.sidenav').sidenav();
         $('html, body').animate({
-            scrollTop: $('.info').offset().top},
+            scrollTop: $('.home').offset().top},
         "slow");
     }
 })();
