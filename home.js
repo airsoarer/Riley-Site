@@ -3,6 +3,7 @@
     
     function init(){
         $('.sidenav').sidenav();
+        $('.collapsible').collapsible();
         $('#ied').on('click', ied);
         $('#home').on('click', home);
         $('#compSci').on('click', compSci);

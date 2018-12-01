@@ -104,6 +104,14 @@ footer{
     display: none;
 }
 
+.collapsible{
+    background-color: #eeeeee !important;
+}
+
+.collapsible-header{
+    background-color: #eeeeee !important;
+}
+
 .about{
     display: none;
 }
